@@ -1,17 +1,9 @@
-# yourchat
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# MyChat" 
+#  Chat App
+A real-time messaging application where users can that, interact with each other.
+### Key Features:
+- Dart & Flutter
+- State Management: Utilized Bloc for managing UI states like message sending, receiving, and displaying chats.
+- Firebase:
+  - Firebase Authentication for user login and registration.
+  - Firestore for storing and retrieving chat messages in real-time.
+- Real-time Updates: Messages are updated instantly using Firestore’s real-time features.
